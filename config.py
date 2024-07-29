@@ -18,13 +18,13 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", "27526328"))
-API_HASH = environ.get("API_HASH", "db231e73712db0b6397f624a75a760f8")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7270620723:AAH80-ii-aQTl2xTUG0N4VM5G5iyndCj5Ok")
+API_ID = int(environ.get("API_ID", "23912988"))
+API_HASH = environ.get("API_HASH", "25ba405594d84ce7d134fd69d17711a4")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7476639613:AAEx6mMSaP6cib37r9_Yg-Sm1_iOVHkcBsI")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "Huofilebot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Tetresitbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://Anivoid:akhand1616@cluster05.kzyifsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster05")
-DB_NAME = environ.get("DB_NAME", "Anivoid")
+DB_URI = environ.get("DB_URI", "mongodb+srv://Animeverse07:shubh07@cluster0.a8slkh0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "Animeverse07")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002191406958 "))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002150881559 "))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
